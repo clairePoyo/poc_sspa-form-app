@@ -14,15 +14,11 @@ const lifecycles = singleSpaReact({
 });
 
 export function bootstrap(props) {
-  console.log("Bootstrap props", props);
-
   return lifecycles.mount(props);
 }
 export function mount(props) {
-  console.log("Mount props", props);
   return lifecycles.mount(props);
 }
 export function unmount(props) {
-  console.log("Unmount props", props);
   return lifecycles.mount(props);
 }
