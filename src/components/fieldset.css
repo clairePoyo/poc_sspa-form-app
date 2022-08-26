@@ -1,0 +1,19 @@
+.mfe_error-text {
+  color: #c11a2b;
+}
+
+.mfe_label {
+  font-weight: bold;
+  color: #535bf2;
+}
+
+.mfe_input {
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.mfe_fieldset {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}

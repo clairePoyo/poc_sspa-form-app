@@ -1,0 +1,46 @@
+.mfe_final-step {
+  max-width: 780px;
+  margin: 32px auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid orange;
+  border-radius: 4px;
+  padding: 16px;
+  justify-content: center;
+  background: #d52e3f;
+  position: relative;
+}
+
+.mfe_final-step > p {
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b,
+    20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b,
+    35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
+  font-size: 6rem;
+  text-align: center;
+  color: #fcedd8;
+}
+
+.mfe_final-step > button {
+  color: #052939;
+  background-color: #eb452b;
+  border: 2px solid #052939;
+  position: absolute;
+  bottom: 16px;
+  width: 200px;
+}
+
+.mfe_final-step__result {
+  list-style: none;
+  width: 300px;
+}
+
+.mfe_final-step__result > li {
+  color: #052939;
+}
+.mfe_final-step__result > li > span {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
